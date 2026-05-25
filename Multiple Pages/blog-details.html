@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Details || Itco Nextjs 14 Template</title>
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/flaticon.css">
+
+    <!-- Icons (Bootstrap Icons) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+      integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+</head>
+<body>
+    <header class="header-wrapper header-show" id="mainHeader">
+    <div class="topbar">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center flex-wrap">
+
+                <div class="topbar-left">
+                    <span><i class="fa-solid fa-location-dot"></i> Jones Street, New York, USA</span>|&emsp;
+
+                    <span><i class="fa-regular fa-envelope"></i> info@example.com</span>|&emsp;
+
+                    <span><i class="fa-solid fa-phone"></i> +70 264 566 579</span>
+                </div>
+
+                <div class="socials-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<div class="container mt-3">
+    <nav class="navbar navbar-expand-lg custom-navbar">
+
+        <a class="navbar-brand" href="#">
+            <img src="Images/itco.vercel.app-image (1).png" alt="">
+        </a>
+
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav mx-auto">
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-success"
+                        href="home.html">
+
+                        Home
+                        <i class="fa-solid fa-angle-down"></i>
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="home.html">
+                                Home One
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="home.html">
+                                Home Two
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="home.html">
+                                Home Three
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">
+                        About
+                    </a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link"
+                        href="services.html">
+
+                        Services
+                        <i class="fa-solid fa-angle-down"></i>
+
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="services.html">
+                                Services
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="service-details.html">
+                                Services Details
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link"
+                        href="pages.html">
+
+                        Pages
+                        <i class="fa-solid fa-angle-down"></i>
+
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="team.html">
+                                Team
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Team Details
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="projects.html">
+                                Projects
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Projects Details
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Testimonials
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Price Plan
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                FAQ
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                404
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link"
+                        href="#">
+
+                        Blog
+                        <i class="fa-solid fa-angle-down"></i>
+
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="blog.html">
+                                Blog Grid
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="blog-details.html">
+                                Blog Details
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+            <a href="#" class="quote-btn">
+                Get A Free Quote
+            </a>
+
+        </div>
+
+    </nav>
+</div>
+</header>
+
+    <section class="hero-section pt-6">
+    <div class="container d-flex justify-content-between align-items-center">
+        
+        <!-- Left Side -->
+        <h1 class="text-white display-4 fw-bold mb-5" style="margin-bottom: 90px !important; margin-top: 50px !important;">
+            Blog Details
+        </h1>
+
+        <!-- Right Side -->
+        <div class="text-white fs-5">
+            <a href="home.html" class="text-white text-decoration-none fs-3" style="font-size: 16px !important;">
+                Home
+            </a>
+
+            <span class="fs-4" style="font-size: 26px !important; margin-top: 100px !important;">></span>
+
+            <span class="fs-6" style="font-weight: 600;">Blog Details</span>
+        </div>
+
+    </div>
+</section>
+
+<section class="blog-section">
+    <div class="container">
+        <div class="row">
+
+            <!-- LEFT COLUMN -->
+            <div class="col-lg-8">
+
+                <!-- BLOG 1 -->
+                <div class="blog-card">
+                    <img src="Images/itco.vercel.app-image (66).png">
+                    <div class="meta">
+                        <i class="bi bi-person"></i> Admin
+                        <i class="bi bi-calendar ms-3"></i> 12 May 2026
+                        <i class="bi bi-chat ms-3"></i> Comments (03)
+                    </div>
+                    <a href="home.html" class="custom-link fs-1 fw-bold">Everything you need to learn about IT Solution for your Company.</a>
+                    <p class="fs-6">With over a decade of experience, we’ve established ourselves as one of the pioneering agencies in the . Our small, flexible, agile and design-led structures and processes allow us to be highly responsive and innovative. We’re made of passionate leaders, strategists, managers, developers, animators designer who work gether under one umbrella. We are a digitally-led, full-service creative agency.</p>
+                    <p class="fs-6">The European languag are member of the same family. Their separate existence is a myth. Europe same science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their samepronunciation and their most common words.</p>
+                    <p> <b class="fs-1">”</b> Majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable</p>
+                    <p class="fs-6">Everyone realizes why a new common language would be desirable: one could refuse to necessary have uniform translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more words. If several languages coalesce, the grammar of the resulting language is simple and regular than that of the individual languages. The new common language will be more simple and regular than the existin languages samepronunciation and their most common words.</p>
+                    <h2 class="fw-bold text-dark">Perfect From Beginning to End</h2>
+                    <p class="fs-6">Transfer details Choose the amount you want to send abroad, select how your receiver wants to get the money, and lastly, how you want to pay. You will always see our fees upfront, the final amount you will pay, and the exact amount your receiver will get.</p>
+                    <ul class="list-unstyled">
+                        <li class="d-flex align-items-start mb-2">
+                            <i class="bi bi-check-square-fill text-success me-2"></i>
+                            <span>Aliquam Eros Justo, Posuere Loborti Robart That</span>
+                        </li>
+                    
+                        <li class="d-flex align-items-start mb-2">
+                            <i class="bi bi-check-square-fill text-success me-2"></i>
+                            <span>Fermentum Ullamcorper Viverra Laoreet</span>
+                        </li>
+                    
+                        <li class="d-flex align-items-start mb-2">
+                            <i class="bi bi-check-square-fill text-success me-2"></i>
+                            <span>Lobortis, Viverra Laoreet Augue Attis Hrculies</span>
+                        </li>
+                    
+                        <li class="d-flex align-items-start">
+                            <i class="bi bi-check-square-fill text-success me-2"></i>
+                            <span>Fermentum Ullamcorper Viverra Laoreet</span>
+                        </li>
+                    </ul>
+                    </div>
+
+                    <hr>
+
+<div class="container my-4">
+    <div class="tag-share-section d-flex justify-content-between align-items-center flex-wrap">
+
+        <!-- Left Side -->
+        <div>
+            <span class="tag-text">Tag:</span>
+            <a href="#" class="tag-link">#Technology</a>
+            <a href="#" class="tag-link">#IT Business</a>
+        </div>
+
+        <!-- Right Side -->
+        <div class="d-flex align-items-center">
+            <span class="share-text">Share:</span>
+
+            <a href="#" class="social-iconss">
+                <i class="bi bi-facebook"></i>
+            </a>
+
+            <a href="#" class="social-iconss">
+                <i class="bi bi-linkedin"></i>
+            </a>
+
+            <a href="#" class="social-iconss">
+                <i class="bi bi-twitter"></i>
+            </a>
+
+            <a href="#" class="social-iconss">
+                <i class="bi bi-instagram"></i>
+            </a>
+        </div>
+
+    </div>
+</div>
+
+<hr>
+
+<div class="container my-5">
+
+    <!-- Author Section -->
+    <div class="author-card d-flex align-items-center justify-content-between mb-4">
+        
+        <div class="d-flex align-items-center">
+            <img src="Images/itco.vercel.app-image (67).png" class="author-img me-3">
+            <div>
+                <div class="s">
+                    <h5 class="fw-bold mb-1">Ronald Richards</h5>
+                    <small>Founder & CEO</small>
+                    <div class="socialss-icons d-flex align-items-center gap-3">
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-linkedin"></i>
+                        <i class="bi bi-twitter"></i>
+                        <i class="bi bi-instagram"></i>
+                    </div>
+                </div>
+                <p class="mb-0 mt-2">
+                    Delicate and specialty items are handled with the utmost care. We have 
+                    specialized processes for such items to ensure they are cleaned gently and 
+                    returned to you in pristine condition.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Comments Title -->
+    <h4 class="fw-bold mb-3">Comments (03)</h4>
+
+    <!-- Comment 1 -->
+    <div class="comment-box d-flex justify-content-between">
+        <div class="d-flex">
+            <img src="Images/itco.vercel.app-image.jpg" class="comment-img me-3">
+            <div>
+                <h6 class="fw-bold mb-1">Brooklyn Simmons</h6>
+                <small class="text-muted">
+                    <i class="bi bi-calendar3"></i> 28 April, 2023
+                </small>
+                <p class="mt-2 mb-0">
+                    There are many different types of roofing materials to choose from, including asphalt shingles, 
+                    Metal roofing, wood shakes, clay tiles, and slate.
+                </p>
+            </div>
+        </div>
+        <button class="reply-btn">REPLY ↩</button>
+    </div>
+
+    <!-- Comment 2 -->
+    <div class="comment-box d-flex justify-content-between">
+        <div class="d-flex">
+            <img src="Images/itco.vercel.app-image (1).jpg" class="comment-img me-3">
+            <div>
+                <h6 class="fw-bold mb-1">Marvin McKinney</h6>
+                <small class="text-muted">
+                    <i class="bi bi-calendar3"></i> 20 October, 2023
+                </small>
+                <p class="mt-2 mb-0">
+                    Is a statement that highlights the importance of providing high-quality auto repair services.
+                </p>
+            </div>
+        </div>
+        <button class="reply-btn">REPLY ↩</button>
+    </div>
+
+    <!-- Comment 3 -->
+    <div class="comment-box d-flex justify-content-between">
+        <div class="d-flex">
+            <img src="Images/itco.vercel.app-image (1).jpg" class="comment-img me-3">
+            <div>
+                <h6 class="fw-bold mb-1">Ronald Richards</h6>
+                <small class="text-muted">
+                    <i class="bi bi-calendar3"></i> 06 June, 2023
+                </small>
+                <p class="mt-2 mb-0">
+                    There are many different types of roofing materials to choose from, including asphalt shingles, 
+                    Metal roofing, wood shakes, clay tiles, and slate.
+                </p>
+            </div>
+        </div>
+        <button class="reply-btn">REPLY ↩</button>
+    </div>
+
+    <!-- Form -->
+    <div class="comment-form mt-4">
+        <h5 class="fw-bold">Add Your Comment</h5>
+        <p class="text-muted">Get in touch with us to see how we can help you with your project</p>
+
+        <form>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <input type="text" class="form-control" placeholder="Enter Name">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <input type="email" class="form-control" placeholder="Enter Email">
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <textarea class="form-control" rows="4" placeholder="Enter Message..."></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Now</button>
+        </form>
+    </div>
+
+</div>
+</div>
+
+            <!-- RIGHT COLUMN -->
+            <div class="col-lg-4">
+
+                <!-- SEARCH -->
+                <div class="sidebar-box">
+                    <h2>Search</h2>
+                    <div class="search-box">
+                        <input type="text" class="form-control" placeholder="Search...">
+                        <i class="bi bi-search"></i>
+                    </div>
+                </div>
+
+                <!-- CATEGORIES -->
+                <div class="sidebar-box">
+                    <h2>Categories</h2>
+
+                    <div class="category-item"><span>Content Management</span><i class="bi bi-arrow-right"></i></div>
+                    <div class="category-item"><span>Information Security</span><i class="bi bi-arrow-right"></i></div>
+                    <div class="category-item"><span>Software Development</span><i class="bi bi-arrow-right"></i></div>
+                    <div class="category-item"><span>Web Analysis</span><i class="bi bi-arrow-right"></i></div>
+                    <div class="category-item"><span>Digital Marketing</span><i class="bi bi-arrow-right"></i></div>
+                    <div class="category-item"><span>Tech Support Pro</span><i class="bi bi-arrow-right"></i></div>
+                </div>
+
+                <!-- RECENT POSTS -->
+                <div class="sidebar-box">
+                    <h2>Recent Posts</h2>
+
+                    <div class="recent-post">
+                        <img src="Images/itco.vercel.app-image (68).png">
+                        <div>
+                            <small><i class="bi bi-calendar"></i> 12 May</small>
+                            <div><b>Recent Post One</b></div>
+                        </div>
+                    </div>
+
+                    <div class="recent-post">
+                        <img src="Images/itco.vercel.app-image (69).png">
+                        <div>
+                            <small><i class="bi bi-calendar"></i> 10 May</small>
+                            <div><b>Recent Post Two</b></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAGS -->
+                <div class="sidebar-box">
+                    <h2>Tags</h2>
+                    <div class="tags">
+                        <button class="btn btn-outline-secondary btn-sm">Interior</button>
+                        <button class="btn btn-outline-secondary btn-sm">Software</button>
+                        <button class="btn btn-outline-secondary btn-sm">Design</button>
+                        <button class="btn btn-outline-secondary btn-sm">WebPlanting</button>
+                        <button class="btn btn-outline-secondary btn-sm">Daily Inspiration</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- 🔥 SUBSCRIBE SECTION -->
+        <div class="subscribe-box mt-5 p-4 d-flex flex-wrap align-items-center justify-content-between">
+
+            <h4 class="text-white fw-bold mb-3 mb-md-0">
+                Subscribe to Our Newsletter for daily Updates
+            </h4>
+
+            <div class="subscribe-form d-flex gap-2">
+                <input type="email" placeholder="Enter Your Email" class="form-control">
+                <button type="button" class="btn btn-light fw-semibold">
+                    Subscribe
+                </button>
+            </div>
+
+        </div>
+        
+    </div>
+</section>
+
+<footer class="footer-section">
+
+    <div class="container">
+
+        <div class="row g-5">
+
+            <!-- Column 1 -->
+            <div class="col-lg-3 col-md-6">
+
+                <!-- Logo -->
+                <img src="Images/itco.vercel.app-image (24).png"
+                     class="footer-logo">
+
+                <!-- Content -->
+                <p class="footer-text">
+                    Mauris ut enim sit amet lacus ornare ullamcor. Praesent placerat nequ puru rhoncu tincidunt odio ultrices. Sed odio feugiat feugiat felis.
+                </p>
+
+                <!-- Social Links -->
+                <div class="social-links">
+
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Column 2 -->
+            <div class="col-lg-3 col-md-6">
+
+                <h3 class="footer-title">
+                    Blog Details
+                </h3>
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="#">Tech Solutions</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Digital Marketing</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Web Development</a>
+                    </li>
+
+                    <li>
+                        <a href="#">IT Consulting</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Data Analytics</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <!-- Column 3 -->
+            <div class="col-lg-3 col-md-6">
+
+                <h3 class="footer-title">
+                    Useful Links
+                </h3>
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="#">What We Do</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Our Team</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Our Projects</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Faq Ask</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <!-- Column 4 -->
+            <div class="col-lg-3 col-md-6">
+
+                <h3 class="footer-title">
+                    Recent Post
+                </h3>
+
+                <!-- Post 1 -->
+                <div class="recent-post">
+
+                    <img src="Images/itco.vercel.app-image (22).png"
+                         class="recent-post-img">
+
+                    <div class="recent-post-content">
+
+                        <div class="post-date">
+
+                            <i class="fa-regular fa-calendar"></i>
+
+                            <span>May 21, 2026</span>
+
+                        </div>
+
+                        <p>
+                            Efficiency redefined through technology.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Post 2 -->
+                <div class="recent-post">
+
+                    <img src="Images/itco.vercel.app-image (23).png"
+                         class="recent-post-img">
+
+                    <div class="recent-post-content">
+
+                        <div class="post-date">
+
+                            <i class="fa-regular fa-calendar"></i>
+
+                            <span>May 21, 2026</span>
+
+                        </div>
+
+                        <p>
+                            IT Solution for your Company.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="footer-bottom">
+
+    <b style="color: white; font-weight: 200;">
+        © <b style="color: #15b882;">Qubohub</b> 2024. All Rights Reserved
+    </b>
+
+</div>
+
+</footer>
+
+<a href="#top" id="topBtn">
+    <i class="fa-solid fa-angles-up"></i>
+</a>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+</body>
+</html>
